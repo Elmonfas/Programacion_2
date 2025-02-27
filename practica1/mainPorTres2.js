@@ -11,17 +11,13 @@ function porTres(n) {
 
 
 // -----------------------------------
-function main(){
 
-    let num = 5
+let num = 5
 
-    let res = porTres(num)
+let res = porTres(num)
 
-    setTimeout(function(){console.log(res)}, 3000)
+setTimeout(function(){console.log(res)}, 3000)
 
-}
-
-main()
 
 // -----------------------------------
 // -----------------------------------

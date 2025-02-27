@@ -12,16 +12,15 @@ function porTres(n) {
 
 
 // -----------------------------------
-function main(){
 
-    let num = 5
+let num = 5
 
-    console.log(porTres(num))
-
-}
+console.log(porTres(num))
 
 
-main()
+
+
+
 
 // -----------------------------------
 // -----------------------------------

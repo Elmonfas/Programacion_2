@@ -30,7 +30,15 @@ let pila = {
 
 }
 // -----------------------------------
+console.log(pila.lista)
 
+pila.apilar('hola')
+
+console.log(pila.lista)
+
+pila.desapilar
+
+console.log(pila.lista)
 
 // -----------------------------------
 // -----------------------------------

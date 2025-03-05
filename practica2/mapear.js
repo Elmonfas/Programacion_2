@@ -1,21 +1,28 @@
 // -----------------------------------
-// Pedro Monfort Caro 06/02/2025 portres()
+// Pedro Monfort Caro 15/02/2025 mapear()
 // -----------------------------------
 
 
-// n:R -> porTres(x) -> R
-function porTres(n) {
+// [S] -> mapear() -> [S]
+function mapear(lista) {
 
-    return n*3
+    let res = []
+
+    for(i in lista){
+
+        res.push(lista[i].length)
+
+    }
+
+    return res
 
 }
 
-
 // -----------------------------------
 
-let num = 5
+let lista = ["hola", "salma", "adios", "pedro","si", "ana"]
 
-console.log(porTres(num))
+console.log(mapear(lista))
 
 
 // -----------------------------------

@@ -6,7 +6,12 @@
 // en cada uno de los tramos es constante
 // 3. Realiza una prueba automática
 
-let valores = [{ s: 7.5 , t: 4 }, { s: 10 , t: 2 }]
+
+// -----------------------------------
+// Pedro Monfort Caro 14/03/25
+// -----------------------------------
+
+// [R] --> calcVelocidad([]) --> [R] 
 
 let calcVelocidad = valores.map(e => {
 
@@ -14,4 +19,14 @@ let calcVelocidad = valores.map(e => {
 
 })
 
+
+// -----------------------------------
+
+let valores = [{ s: 7.5 , t: 4 }, { s: 10 , t: 2 }]
+
 console.log("Las velocidades registradas son : ", calcVelocidad)
+
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------

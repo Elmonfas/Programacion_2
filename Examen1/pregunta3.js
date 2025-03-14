@@ -7,7 +7,11 @@
 // Realiza una prueba automática con la siguiente lista de palabras:
 // [“coladores”, “brisa”, “cree”, “mes”, “cazar”] y comprueba que el resultado es “diez”
 
-let palabras = ["coladores", "brisa", "cree", "mes", "cazar"]
+// -----------------------------------
+// Pedro Monfort Caro 14/03/25
+// -----------------------------------
+
+// [S] --> palabraimpar([]) --> palabra:S 
 
 function palabraImpar(palabras){
 
@@ -28,4 +32,13 @@ function palabraImpar(palabras){
 
 }
 
+// -----------------------------------
+
+let palabras = ["coladores", "brisa", "cree", "mes", "cazar"]
+
 console.log(palabraImpar(palabras))
+
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------

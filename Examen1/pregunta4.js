@@ -5,9 +5,11 @@
 // 2. Implementa esta función usando dos de las funciones filtrar(), mapear(), reducir() y ninguna otra función 
 // 3. Escribe una prueba automática
 
-let calificaciones = ["suspenso", "notable", "sobresaliente", "sobresaliente"]
+// -----------------------------------
+// Pedro Monfort Caro 14/03/25
+// -----------------------------------
 
-let plantilla = {suspenso:3,aprobado:5,bien:7,notable:8,sobresaliente:10}
+// [S] --> calcularMedia([],[{}]) --> nota:R 
 
 function calcularMedia(calificaciones, plantilla) {
 
@@ -31,4 +33,15 @@ function calcularMedia(calificaciones, plantilla) {
 
 }
 
+// -----------------------------------
+
+let calificaciones = ["suspenso", "notable", "sobresaliente", "sobresaliente"]
+
+let plantilla = {suspenso:3,aprobado:5,bien:7,notable:8,sobresaliente:10}
+
 console.log(calcularMedia(calificaciones, plantilla))
+
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------

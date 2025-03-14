@@ -6,7 +6,11 @@
 // 2. Implementa la función usando reducir(). No puede usarse la biblioteca Math
 // 3. Escribe una prueba automática
 
-let valores = [{ x: 0.5 , r: 4 },{ x: 0.6 , r: 2.4 }]
+// -----------------------------------
+// Pedro Monfort Caro 14/03/25
+// -----------------------------------
+
+// [R] --> calcularAreasCirculos([]) --> [R] 
 
 let calcularAreasCirculos = valores.reduce((acc, element) => {
 
@@ -18,4 +22,13 @@ let calcularAreasCirculos = valores.reduce((acc, element) => {
 
 }, [])
 
+// -----------------------------------
+
+let valores = [{ x: 0.5 , r: 4 },{ x: 0.6 , r: 2.4 }]
+
 console.log("Las areas de de los circulos son : ",calcularAreasCirculos)
+
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------
+// -----------------------------------
